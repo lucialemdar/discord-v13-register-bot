@@ -39,7 +39,7 @@ exports.run = async (client, message, args) => {
     🎫 Toplam \`${toplamkayıt}\` kayıt yaptı
     `)
     .setThumbnail(member.user.avatarURL({dynamic:true}))
-    .setFooter(`${message.guild.name} kayıt sistemi 💖 by Lucia`)
+    .setFooter(`${message.guild.name} kayıt sistemi 💖 by Frozan / Lucia`)
     .setColor("BLUE");
     message.channel.send({embeds:[embed]});
     client.guilds.cache.get(message.guild.id).channels.cache.get(logkanal).send({embeds:[embed]});
