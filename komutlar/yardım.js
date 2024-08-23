@@ -19,7 +19,7 @@ exports.run = async (client, message, args) => {
   .addField(`${prefix}jail al`,`jail rolünü alır.`,false)
   .addField(`${prefix}ping`,`Botun pingini gösterir.`,false)
   .setFooter(`${message.author.tag} tarafından istendi`, message.author.avatarURL({dynamic:true}))
-  .setImage("412a31fad9d10f0fc51ad4e6a33f487e.jpg")
+  .setImage("https://media.discordapp.net/attachments/1262019500975460362/1262020076551540747/1673446067652-1.gif?ex=66c9cf49&is=66c87dc9&hm=7df501ed65b87a49b98840a530c08778f51890e56bd7a9a4d3b65535f1f6d7dd&=")
   .setColor('BLUE')
   .setThumbnail(client.user.avatarURL())
   message.channel.send({embeds: [embed], components:[row]})
