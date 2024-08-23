@@ -1,14 +1,14 @@
 {
-  "name": "Parsher-v13-kayit-bot",
+  "name": "Frozan-kayit-bot",
   "version": "1.0.0",
-  "description": "Developed by Parsher",
+  "description": "Developed by Frozan",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": ["Parsher", "Parsher Code", "youtube"],
-  "author": "Parsher",
+  "keywords": ["Frozan", "Lucia", "Best Of Lucia"],
+  "author": "Frozan",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.1.0",
